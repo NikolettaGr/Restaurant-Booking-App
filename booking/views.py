@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
+from .forms import BookingForm
+
 
 
 
@@ -8,15 +11,8 @@ def index(request):
 
 
 
-def login(request):
-    return render(request, 'login.html')
-
 @login_required
 def add_booking(request):
-    """
-    Function enables user to make a booking
-    and add it to the database.
-    """
     if request.method == 'POST':
         form = BookingForm(request.POST)
         if form.is_valid():
@@ -31,7 +27,7 @@ def add_booking(request):
     context = {
         'form': form
         }
-    return render(request, 'restaurant/booking.html', context)
+    return render(request, 'booking.html', context)
 
 
 
