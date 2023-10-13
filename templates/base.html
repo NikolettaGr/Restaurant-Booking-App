@@ -37,10 +37,9 @@
                 <i class="fas fa-bars"></i>
             </button>
 
-            <!-- Move the following ul to the right side of the navbar -->
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Menu</a>
@@ -53,7 +52,7 @@
                     <a class="nav-link" href="#">My bookings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Log out</a>
+                    <a class="nav-link" href="{% url 'account_logout' %}">Log out</a>
                 </li>
                 {% endif %}
             </ul>
