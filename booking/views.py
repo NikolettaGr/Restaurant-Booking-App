@@ -7,12 +7,19 @@ from .forms import BookingForm
 
 
 def index(request):
-    return render(request, 'index.html')
+     """
+    Function enables user to view the home page.
+    """
+    return render(request, 'home.html')
 
 
 
 @login_required
 def add_booking(request):
+    """
+    Function enables user to make a booking
+    and add it to the database.
+    """
     if request.method == 'POST':
         form = BookingForm(request.POST)
         if form.is_valid():
