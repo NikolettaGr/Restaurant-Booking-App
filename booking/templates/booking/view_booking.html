@@ -30,7 +30,8 @@
                 <td>{{ booking.phone_number }}</td>
                 <td>{{ booking.table }}</td>
                 <td>
-                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="">Edit
+                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl"
+                            href="{% url 'edit_booking' booking.id %}">Edit
                             Booking</a></div>
                 </td>
                 <td>
