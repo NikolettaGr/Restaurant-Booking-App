@@ -47,11 +47,19 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'cloudinary',
     'django_summernote',
+    'crispy_forms',
+    'bootstrap4',
+    'crispy_bootstrap4',
     'whitenoise',
     'booking',
 ]
 
 # SITE_ID = 1
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+
 
 LOGIN_REDIRECT_URL = "booking"
 LOGOUT_REDIRECT_URL = "/"
