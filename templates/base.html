@@ -49,11 +49,11 @@
                 </li>
                 {% if user.is_authenticated %}
                 <li class="nav-item">
-                    <a class="nav-link" href="#">My bookings</a>
+                    <a class="nav-link" href="{% url 'view_booking' %}">My bookings</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_logout' %}">Log out</a>
-                </li>
+                <a href="{% url 'account_logout' %}"><button type="button" class="btn-book btn-primary me-3">
+                        Log out
+                    </button></a>
                 {% endif %}
             </ul>
 
