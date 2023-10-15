@@ -12,7 +12,7 @@ def home(request):
     """
     Function enables user to view the home page.
     """
-    return render(request, 'home.html')
+    return render(request, 'booking/home.html')
 
 
 
