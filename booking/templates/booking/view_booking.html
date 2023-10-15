@@ -3,47 +3,51 @@
 
 {% block content %}
 
-<div class="table-responsive-sm">
-    <table class="table table-hover table-dark">
-        <thead>
-            <tr>
-                <th scope="col"></th>
-                <th scope="col">Logged in User</th>
-                <th scope="col">Full name</th>
-                <th scope="col">Reservation date</th>
-                <th scope="col">Reservation time</th>
-                <th scope="col">Phone number</th>
-                <th scope="col">Number of guests</th>
-                <th scope="col">Edit booking</th>
-                <th scope="col">Delete booking</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for booking in bookings %}
+<div class="container">
+    <div class="table-responsive-sm">
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Logged in User</th>
+                    <th scope="col">Full name</th>
+                    <th scope="col">Reservation date</th>
+                    <th scope="col">Reservation time</th>
+                    <th scope="col">Phone number</th>
+                    <th scope="col">Number of guests</th>
+                    <th scope="col">Edit booking</th>
+                    <th scope="col">Delete booking</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for booking in bookings %}
 
-            <tr>
-                <th scope="row"></th>
-                <td>{{ user.username }}</td>
-                <td>{{ booking.full_name }}</td>
-                <td>{{ booking.date }}</td>
-                <td>{{ booking.time }}</td>
-                <td>{{ booking.phone_number }}</td>
-                <td>{{ booking.table }}</td>
-                <td>
-                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl"
-                            href="{% url 'edit_booking' booking.id %}">Edit
-                            Booking</a></div>
-                </td>
-                <td>
-                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-danger btn-xl" href="">Delete
-                            Booking</a></div>
-                </td>
-            </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>{{ user.username }}</td>
+                    <td>{{ booking.full_name }}</td>
+                    <td>{{ booking.date }}</td>
+                    <td>{{ booking.get_time_display }}</td>
+                    <td>{{ booking.phone_number }}</td>
+                    <td>{{ booking.table }}</td>
+                    <td>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl"
+                                href="{% url 'edit_booking' booking.id %}">Edit
+                                Booking</a></div>
+                    </td>
+                    <td>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-danger btn-xl"
+                                href="{% url 'delete_booking' booking.id %}">Delete
+                                Booking</a></div>
+                    </td>
+                </tr>
 
-        </tbody>
-        {% endfor %}
-        {% csrf_token %}
-    </table>
+            </tbody>
+            {% endfor %}
+            {% csrf_token %}
+        </table>
+    </div>
 </div>
+
 
 {% endblock %}
