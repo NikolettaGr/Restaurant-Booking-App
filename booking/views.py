@@ -75,21 +75,18 @@ def edit_booking(request, booking_id):
 @login_required
 def delete_booking(request, booking_id):
     """
-    Function enables user to delete a booking after
-    it has been made and added to the database.
+    Function enables the user to delete a booking.
     """
     booking = get_object_or_404(Booking, id=booking_id)
-    if request.method == "POST":
-        form = BookingForm(request.POST, instance=booking)
-        if booking.delete():
-            messages.success(request, 'Your booking has been deleted.')
-            return redirect('view_booking')
 
-    form = BookingForm(instance=booking)
+    if request.method == "POST":
+        booking.delete()
+        messages.success(request, 'Your booking has been deleted.')
+        return redirect('view_booking')
+
     context = {
-        'form': form
+        'booking': booking
     }
     return render(request, 'booking/delete_booking.html', context)
-
 
 
