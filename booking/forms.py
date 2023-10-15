@@ -10,3 +10,4 @@ class BookingForm(forms.ModelForm):
         widget=forms.DateInput(attrs={'type': 'date'}),
         help_text='Select a date',
     )
+    
