@@ -7,13 +7,11 @@ from .models import Booking
 
 
 
-
 def home(request):
     """
     Function enables user to view the home page.
     """
     return render(request, 'booking/home.html')
-
 
 
 @login_required
@@ -72,6 +70,26 @@ def edit_booking(request, booking_id):
         'form': form
     }
     return render(request, 'booking/edit_booking.html', context)
+
+
+@login_required
+def delete_booking(request, booking_id):
+    """
+    Function enables user to delete a booking after
+    it has been made and added to the database.
+    """
+    booking = get_object_or_404(Booking, id=booking_id)
+    if request.method == "POST":
+        form = BookingForm(request.POST, instance=booking)
+        if booking.delete():
+            messages.success(request, 'Your booking has been deleted.')
+            return redirect('view_booking')
+
+    form = BookingForm(instance=booking)
+    context = {
+        'form': form
+    }
+    return render(request, 'booking/delete_booking.html', context)
 
 
 
