@@ -1,15 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block content %}
 {% load crispy_forms_tags %}
 
+{% block content %}
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'assets/img/intro-booking.jpg' %}"
-                alt="Restaurant" />
-            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                <h2 class="section-heading mb-4">
+            <div class="col-md-8 mt-3 offset-md-2 bg-faded text-center rounded">
+                <h2 class="section-heading mb-4 p-4">
                     <span class="section-heading-upper">Table Booking Form</span>
                 </h2>
                 <div class="row">
