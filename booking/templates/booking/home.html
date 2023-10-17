@@ -3,25 +3,46 @@
 
 {% block content %}
 
-<!-- Hero -->
-<div class="p-5 text-center bg-image rounded-3" style="
-    background-image: url('https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg'); background-size: 100%;
-    height: 70vh;
-  ">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white p-5" style="padding-left: 100px;">
-                    <h1 class="mb-3">Welcome to</h1>
-                    <h4 class="mb-3">CIAO Restaurant</h4>
-                    <p class="mb-3">Explore our diverse menu, enjoy the company of your loved ones, and savor the
-                        moments. Your table is waiting for you!</p>
-                    <a class="btn btn-outline-light btn-lg" href="{% url 'account_login' %}" role="button">Book a
-                        table</a>
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/static/images/serving.jpg" alt="" />
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Prime Quality</span>
+                    <span class="section-heading-lower">A Gourmand's Delight</span>
+                </h2>
+                <p class="mb-3">Every dish at our restaurant begins with the finest locally sourced, handpicked
+                    ingredients. Once you savor our cuisine,
+                    it will become a delectable addition to your daily dining experience – we promise!</p>
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl"
+                        href="{% url 'account_login' %}">Book a table!</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <div class="cta-inner bg-faded text-center rounded">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">Our Promise</span>
+                        <span class="section-heading-lower">To You</span>
+                    </h2>
+                    <p class="mb-0">When you step into our restaurant to embark on a culinary journey, we are committed
+                        to delivering more than just a meal.
+                        Our mission is to offer you warm and welcoming service, an inviting ambiance, and, above all,
+                        delectable dishes crafted
+                        with the finest, freshest ingredients. If your dining experience falls short of satisfaction,
+                        please don't hesitate to
+                        inform us, and we will go above and beyond to ensure your culinary delight is nothing less than
+                        exceptional. Your
+                        contentment is our priority, and we're here to make it right in every way we can!</p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 {% endblock %}
