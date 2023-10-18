@@ -93,7 +93,7 @@ MIDDLEWARE = [
 ]
 
 
-ROOT_URLCONF = 'restaurant.urls'
+ROOT_URLCONF = 'restaurant-booking-system.urls'
 
 TEMPLATES = [
     {
