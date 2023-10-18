@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     'booking',
 ]
 
-# SITE_ID = 1
+SITE_ID = 1
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
