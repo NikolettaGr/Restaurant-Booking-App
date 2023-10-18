@@ -14,6 +14,14 @@ def home(request):
     return render(request, 'booking/home.html')
 
 
+def menu(request):
+    """
+    Function enables user to view the menu page.
+    """
+    return render(request, 'booking/menu.html')
+
+
+
 @login_required
 def add_booking(request):
     """
