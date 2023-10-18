@@ -21,6 +21,13 @@ def menu(request):
     return render(request, 'booking/menu.html')
 
 
+def contact(request):
+    """
+    Function enables user to view the contact page.
+    """
+    return render(request, 'booking/contact.html')
+
+
 
 @login_required
 def add_booking(request):
