@@ -93,7 +93,7 @@ MIDDLEWARE = [
 ]
 
 
-ROOT_URLCONF = 'restaurant-booking-system.urls'
+ROOT_URLCONF = 'restaurant.urls'
 
 TEMPLATES = [
     {
@@ -111,7 +111,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'restaurant-booking-system.wsgi.application'
+WSGI_APPLICATION = 'restaurant.wsgi.application'
 
 
 # Database
