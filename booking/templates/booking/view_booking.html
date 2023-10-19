@@ -4,8 +4,10 @@
 {% block content %}
 
 <div class="container">
+    {% if bookings %}
+    {% for booking in bookings %}
     <div class="table-responsive-sm p-4">
-        <table class="table table-hover table-dark">
+        <table class="table col-md-4 mt-5 mb-5 p-4 offset-md-4 bg-faded rounded">
             <thead>
                 <tr>
                     <th scope="col"></th>
@@ -20,7 +22,6 @@
                 </tr>
             </thead>
             <tbody>
-                {% for booking in bookings %}
 
                 <tr>
                     <th scope="row"></th>
@@ -44,6 +45,15 @@
 
             </tbody>
             {% endfor %}
+
+            {% else %}
+            <div class="col-md-4 mt-5 mb-5 p-4 offset-md-4 bg-faded text-center rounded">
+                <h1 class="mb-5">You don't have a booking yet.</h1>
+                <a href="{% url 'booking' %}" aria-label="Go back to view_booking page" class="btn btn-primary btn-xl">
+                    <div class="intro-button mx-auto">BOOK</div>
+                </a>
+            </div>
+            {% endif %}
             {% csrf_token %}
         </table>
     </div>
