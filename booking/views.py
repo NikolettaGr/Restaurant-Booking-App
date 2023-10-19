@@ -8,23 +8,17 @@ from .models import Booking
 
 
 def home(request):
-    """
-    Function enables user to view the home page.
-    """
+    """Function enables user to view the home page."""
     return render(request, 'booking/home.html')
 
 
 def menu(request):
-    """
-    Function enables user to view the menu page.
-    """
+    """Function enables user to view the menu page."""
     return render(request, 'booking/menu.html')
 
 
 def contact(request):
-    """
-    Function enables user to view the contact page.
-    """
+    """Function enables user to view the contact page."""
     return render(request, 'booking/contact.html')
 
 
@@ -89,9 +83,7 @@ def edit_booking(request, booking_id):
 
 @login_required
 def delete_booking(request, booking_id):
-    """
-    Function enables the user to delete a booking.
-    """
+    """Function enables the user to delete a booking."""
     booking = get_object_or_404(Booking, id=booking_id)
 
     if request.method == "POST":
