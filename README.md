@@ -101,22 +101,22 @@ This ensures that users can still access all the booking information convenientl
 
 * In-Depth Restaurant Information
 
-- Enhance the restaurant profiles with detailed information such as photos, menus, chef profiles, and virtual tours. Provide users with a comprehensive overview to help them make informed dining choices.
+Enhance the restaurant profiles with detailed information such as photos, menus, chef profiles, and virtual tours. Provide users with a comprehensive overview to help them make informed dining choices.
   
 
 * Integration with Food Delivery
 
-- Integrate food delivery services to allow users to seamlessly switch between booking a table and ordering takeout or delivery from the same restaurant. Provide a one-stop solution for all dining needs.
+Integrate food delivery services to allow users to seamlessly switch between booking a table and ordering takeout or delivery from the same restaurant. Provide a one-stop solution for all dining needs.
 
 
 * Review and Rating System
 
-- Enhance the user experience by adding a review and rating system. Encourage users to share their dining experiences and provide valuable feedback to restaurants.
+Enhance the user experience by adding a review and rating system. Encourage users to share their dining experiences and provide valuable feedback to restaurants.
 
 
 * Multi-Language Support
 
-- Expand your user base by offering the website in multiple languages to cater to a diverse clientele.
+Expand your user base by offering the website in multiple languages to cater to a diverse clientele.
 
 
 ---
@@ -187,5 +187,5 @@ Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment-relat
 
 
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Iuliia helped me to understand the concept of a database for the booking app and greatly motivated me to do my best throughout the whole development stage.
-- [Predrag], my friend and coding partner, who assisted me greatly in understanding Django implementation and helped me to stay sane.
+- Predrag, my friend and coding partner, who assisted me greatly in understanding Django implementation and helped me to stay sane.
 - My current workplace for providing me with the main idea for the project and incentivizing me to work on it.
