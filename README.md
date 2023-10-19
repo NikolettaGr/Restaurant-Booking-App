@@ -85,7 +85,11 @@ The app is developed by [Nikoletta Grishaber](https://github.com/NikolettaGr).
 
 - ### Responsivity
  
- The application is responsive on all device sizes, thanks to the Boostrap theme. In mobile view there is a collapsible menu icon. All images, text labels, forms get appropriately resized. There is an exception, however: when bookings are displayed in the database table in the view_booking.html, on mobile phone screens in portrait mode there is not enough room for all columns to be shown. However, Bootstrap adds a slide bar so that user can slide the page content from left to right.
+The application boasts full responsiveness, thanks to the Bootstrap theme, ensuring seamless adaptability across various device sizes. In mobile view, a collapsible menu icon simplifies navigation, and all elements such as images, text labels, and forms adjust proportionally to fit the screen.
+
+However, there is an exception that occurs when displaying bookings in the database table on mobile phones in portrait mode. Due to limited horizontal space, not all columns can be fully displayed. To address this issue, Bootstrap adds a horizontal scroll bar, allowing users to scroll left and right to access the complete content.
+
+This ensures that users can still access all the booking information conveniently, even on smaller screens.
 
 - ### Interactive elements
   -   #### Nav links for Home, Menu, Contact, Book a table, My bookings, Login and Logout pages
