@@ -50,9 +50,9 @@
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase" href="{% url 'view_booking' %}">My bookings</a>
                     </li>
-                    <li class="nav-item px-lg-4 text-uppercase">
-                        <a href="{% url 'account_logout' %}">
-                            <button type="button" class="btn btn-primary btn-block mb-4">
+                    <li class="nav-item px-lg-4">
+                        <a href="{% url 'account_logout' %}" class="text-uppercase">
+                            <button type="button" class="btn btn-primary btn-block mb-4 text-uppercase">
                                 Log out
                             </button>
                         </a>
@@ -62,6 +62,15 @@
             </div>
         </div>
     </nav>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            {% for message in messages %}
+            <div class="alert {{ message.tags }} alert-dismissible fade show" id="messages">
+                {{ message | safe }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
     <main class="flex-shrink-0 main-bg">
         {% block content %}
         <!-- Content Goes here -->
