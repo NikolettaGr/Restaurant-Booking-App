@@ -3,7 +3,33 @@
 {% block content %}
 {% load crispy_forms_tags %}
 
-<section class="page-section clearfix">
+<div class="col-md-4 mt-5 mb-5 p-4 offset-md-4 bg-faded text-center rounded">
+    <form method="post" action="{% url 'delete_booking' booking.id %}">
+        <h2 class="section-heading mb-4 p-3">Delete booking</h2>
+        {% csrf_token %}
+        <div class="row text-center mb-4">
+            <div class="mb-3 text-center">
+                Are you sure you want to delete booking with name <strong>{{ booking.full_name }}</strong> made on
+                <strong> {{ booking.date }}</strong>?
+            </div>
+            <div class="mb-3 text-center">
+                This booking will be <strong>permanently</strong> deleted from the database.
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="{% url 'view_booking' %}" aria-label="Go back to view_booking page" class="btn btn-primary btn-xl">
+                <div class="intro-button mx-auto">Cancel</div>
+            </a>
+            <button type="submit" class="btn btn-danger btn-xl" style="color: black">
+                Delete
+            </button>
+        </div>
+    </form>
+</div>
+
+{% endblock content %}
+
+<!-- <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
             <div class="col-md-8 mt-3 offset-md-2 bg-faded text-center rounded">
@@ -51,6 +77,4 @@
             </div>
         </div>
     </div>
-</section>
-
-{% endblock content %}
+</section> -->
