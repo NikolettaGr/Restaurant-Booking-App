@@ -3,7 +3,7 @@
 - The app was deployed to [Render](https://render.com/).
 - The database was deployed to [ElephantSQL](https://www.elephantsql.com/).
 
-- The app can be reached by the [link]().
+- The app can be reached by the [link](https://restaurant-booking-system-4pt5.onrender.com/).
 
 ## Local deployment
 
@@ -75,7 +75,7 @@ Create a local copy of the GitHub repository by following one of the two process
 
 3. Select a name for your database and select the free plan.
 
-    - ![ElephantSQL. Select a name for your database](documentation/screenshot_images/select_plan.png)
+    - ![ElephantSQL. Select a name for your database](documentation/screenshot_images/render-plan.png)
 
 4. Click "Select Region"
 
@@ -91,15 +91,15 @@ Create a local copy of the GitHub repository by following one of the two process
 
 7. Click "Create Instance"
 
-    - ![ElephantSQL. Create Instance](documentation/screenshot_images/create_intance_click.png)
+    - ![ElephantSQL. Create Instance](documentation/screenshot_images/render-instances.png)
 
 8. Click on the name of your database to open the dashboard.
 
-    - ![ElephantSQL. Open dashboard](documentation/screenshot_images/8.click_name.png)
+    - ![ElephantSQL. Open dashboard](documentation/screenshot_images/render-namee.png)
 
 9. You will see the dashboard of your database. You will need the URL of your database to connect it to your Django project.
 
-    - ![ElephantSQL. DB](documentation/screenshot_images/9.url.png)
+    - ![ElephantSQL. DB](documentation/screenshot_images/render-bulidhish.png)
 
 ### Create a new app on Render
 
