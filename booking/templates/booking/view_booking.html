@@ -33,12 +33,13 @@
                     <td>{{ booking.table }}</td>
                     <td>
                         <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl"
-                                href="{% url 'edit_booking' booking.id %}">Edit
+                                href="{% url 'edit_booking' booking.id %}" aria-label="Go to edit_booking page">Edit
                                 Booking</a></div>
                     </td>
                     <td>
                         <div class="intro-button mx-auto"><a class="btn btn-primary btn-danger btn-xl"
-                                href="{% url 'delete_booking' booking.id %}">Delete
+                                href="{% url 'delete_booking' booking.id %}"
+                                aria-label="Go back to view_booking page">Delete
                                 Booking</a></div>
                     </td>
                 </tr>
