@@ -6,7 +6,6 @@ from .forms import BookingForm
 from .models import Booking
 
 
-
 def home(request):
     """Function enables user to view the home page."""
     return render(request, 'booking/home.html')
@@ -20,7 +19,6 @@ def menu(request):
 def contact(request):
     """Function enables user to view the contact page."""
     return render(request, 'booking/contact.html')
-
 
 
 @login_required
@@ -95,5 +93,3 @@ def delete_booking(request, booking_id):
         'booking': booking
     }
     return render(request, 'booking/delete_booking.html', context)
-
-

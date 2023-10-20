@@ -22,20 +22,21 @@ TABLES = (
 
 
 class Booking(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE,null=True, blank=True)
+    user = models.ForeignKey(
+     User, on_delete=models.CASCADE, null=True, blank=True)
     full_name = models.CharField(max_length=100)
     date = models.DateField()
     time = models.IntegerField(choices=TIME_PERIODS, default=0)
     table = models.IntegerField(choices=TABLES, default=0)
     phone_number = models.CharField(null=True, blank=True, max_length=15)
-    questions = models.TextField(max_length=1000,null=True, blank=True)
-    
+    questions = models.TextField(max_length=1000, null=True, blank=True)
 
     def __str__(self):
-        return f'{self.user} {self.date}' 
+        return f'{self.user} {self.date}'
 
 
 class Review(models.Model):
-    booking = models.ForeignKey(Booking, on_delete=models.CASCADE, null=True, blank=True)
+    booking = models.ForeignKey(
+         Booking, on_delete=models.CASCADE, null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
     review = models.TextField(max_length=1000)
