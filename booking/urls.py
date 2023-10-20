@@ -1,6 +1,9 @@
 from django.urls import path
-from .views import home, add_booking,
-view_booking, edit_booking, delete_booking, menu, contact
+from .views import (
+    home,
+    add_booking,
+    view_booking, edit_booking, delete_booking, menu, contact
+)
 
 urlpatterns = [
     path('', home, name='home'),
