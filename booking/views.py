@@ -71,7 +71,9 @@ def edit_booking(request, booking_id):
             booking.user = request.user
             booking.save()
             messages.success(request, 'Your booking has been updated.')
-        return redirect('view_booking')
+            return redirect('view_booking')
+        else:
+            messages.error(request, 'Booking date must be in the future.')
     form = BookingForm(instance=book)
     context = {
         'form': form
