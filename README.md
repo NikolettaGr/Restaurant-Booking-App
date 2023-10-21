@@ -78,7 +78,6 @@ The app is developed by [Nikoletta Grishaber](https://github.com/NikolettaGr).
     + [Draw.io](https://www.lucidchart.com/) was used to make a flowchart for the README file.
     + [W3C Validator](https://validator.w3.org/): was used to validate HTML5 code for the website.
     + [W3C CSS validator](https://jigsaw.w3.org/css-validator/): was used to validate CSS code for the website.
-    + [JShint](https://jshint.com/): was used to validate JS code for the website.
     + [PEP8](https://pep8.org/): was used to validate Python code for the website.
 
 
@@ -96,8 +95,8 @@ This ensures that users can still access all the booking information convenientl
 
 - ### Interactive elements
   -   #### Nav links for Home, Menu, Contact, Book a table, My bookings, Login and Logout pages
-  -   #### Form input fields on signup, register, signout, table booking and edit booking
-  -   #### Buttons - including form buttons (signup, register, signout, table booking, edit booking and delete booking form buttons) and page buttons (Book a table button on Home page)
+  -   #### Form input fields on login, signup, signout, table booking and edit booking
+  -   #### Buttons - including form buttons (signup, login, signout, table booking, edit booking and delete booking form buttons) and page buttons (Book a table button on Home page)
 
 
 - ### Features to add in future   
@@ -122,7 +121,6 @@ Enhance the user experience by adding a review and rating system. Encourage user
 Expand your user base by offering the website in multiple languages to cater to a diverse clientele.
 
 
----
 
 ## Design 
 
@@ -166,7 +164,7 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 - The app was deployed to [Render](https://render.com/).
 - The database was deployed to [ElephantSQL](https://www.elephantsql.com/).
 
-- The app can be reached by the [link]().
+- The app can be reached by the [link](https://restaurant-booking-system-4pt5.onrender.com/).
 
 Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment-related documentation.
 
