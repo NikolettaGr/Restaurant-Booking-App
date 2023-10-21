@@ -110,14 +110,97 @@ Return back to the [README.md](README.md) file.
         1. User goes on the Menu or Contact page to do this.
 
 
+---
+
+## Bugs 
+
+- I encountered several challenges at the beginning of this project, as I was not very familiar with Django. However, as I progressed, I gained valuable knowledge and experience.
+
+- One of the issues I faced was linking views with the page's URL. Through extensive research and the assistance of a friend, I successfully resolved this problem.
+
+- When I first started working on this project, I faced some challenges related to Django URL patterns. Defining views in the URL paths was a bit tricky at first.
+
+One issue I encountered was not understanding how to correctly connect the views to the URLs. It took me a while to grasp the concept of defining views, and I struggled with passing arguments such as booking_id in the URL patterns.
+
+Additionally, I had some confusion regarding the naming of the URLs and how they should be referenced in the templates.
+
+However, with the help of Django documentation and advice from a more experienced friend, I was able to overcome these challenges and successfully set up the URL patterns to navigate through different views in my Django web application.
+
+
+- When working on this code, I noticed a bug related to the date field in the BookingForm. Initially, the form allowed users to select and book a table for a date in the past. This was incorrect since reservations should only be allowed for future dates.
+
+To address this issue, I implemented a fix by adding a clean_date method in the form. This method checks if the selected date is in the past by comparing it with the current time using timezone.now().date(). If the selected date is in the past, a ValidationError is raised with a message indicating that the booking date must be in the future.
+
+This fix ensures that users cannot make reservations for dates that have already passed, maintaining the integrity of the booking system and preventing the bug from occurring.
+
+
+- Deployment Issues:
+
+   - DEBUG Mode: Initially, my project's settings.py had the DEBUG mode set to True. This was a problem because in a production environment, it should be set to False for security and performance reasons.
+
+   - Resolution: I updated the DEBUG setting to False for the production environment, ensuring that sensitive information and tracebacks were not exposed to users.
+
+   - SECRET_KEY Security: My settings.py file contained the SECRET_KEY directly, which is a security risk if exposed.
+
+   - Resolution: I moved the SECRET_KEY to an environment variable and used a secure method to access it.
+
+   
+   - Requirements for Deployment:
+
+    - Missing Dependencies: During the deployment process, I encountered issues with missing Python package dependencies. My project relied on various packages like Django, but I hadn't documented these dependencies correctly.
+
 
 
 ## Validation:
 ### HTML Validation:
 
-![Full HTML Validation Report]()
+- **Home Page**
+
+![Home page](documentation/screenshot_images/home-page-validator.png)
+
+
+- **Menu Page**
+
+![Menu Page](documentation/screenshot_images/menupage-validator.png)
+
+
+- **Contact Page**
+
+![Contact Page](documentation/screenshot_images/contactpage-validator.png)
+
+
+- **Booking Page**
+
+![Booking Page](documentation/screenshot_images/booking-html-validator.png)
+
+
+- **View Booking Page**
+
+![Viev Booking Page](documentation/screenshot_images/view-html-validator.png)
+
+
+- **Edit Booking Page**
+
+![Edit Bookiing Page](documentation/screenshot_images/editbooking-validator.png)
+
+
+- **Delete Booking Page**
+
+![Edit Booking Page](documentation/screenshot_images/deletebooking-validator.png)
+
+
+- **Login Page**
+
+![Login Page](documentation/screenshot_images/login-html-validator.png)
+
+
+- **Sign Out Page**
+
+![Sig Out Page](documentation/screenshot_images/logout-html-validator.png)
+
 
 - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator. This checking was done manually by copying the view page source code (Ctrl+U) and pasting it into the validator.
+
 
 ### CSS Validation:
 
