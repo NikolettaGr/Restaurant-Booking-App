@@ -261,8 +261,10 @@ Testing was conducted on the following browsers;
 ![Firefox](documentation/screenshot_images/mozilla-test.png)
 
 
--   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy A51 and Google Developer Tools. It is responsive on all devices and all features work as expected.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy A51 and Chrome Developer Tools. It is responsive on all devices and all features work as expected.
 -   A large amount of testing was done to ensure that all pages were linking correctly. - See Testing User Stories
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+![Responsive Viewer](documentation/screenshot_images/responsive-viewer.png)
 
 
