@@ -188,5 +188,5 @@ Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment-relat
 
 
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Iuliia helped me to understand the concept of a database for the booking app and greatly motivated me to do my best throughout the whole development stage.
-- Predrag, my friend and coding partner, who assisted me greatly in understanding Django implementation and helped me to stay sane.
+- My friend and coding partner, who assisted me greatly in understanding Django implementation and helped me to stay sane.
 - My current workplace for providing me with the main idea for the project and incentivizing me to work on it.
