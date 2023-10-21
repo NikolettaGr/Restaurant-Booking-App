@@ -12,7 +12,7 @@ The app is developed by [Nikoletta Grishaber](https://github.com/NikolettaGr).
 
 ## About
 
-[Restaurant Booking App]() is a restaurant booking application. The main goal of this app is to make a table reservation.
+[Restaurant Booking App](https://restaurant-booking-system-4pt5.onrender.com) is a restaurant booking application. The main goal of this app is to make a table reservation.
 
 ### User Stories
 
@@ -140,7 +140,7 @@ Expand your user base by offering the website in multiple languages to cater to 
 
 ### Wireframes
 
-- [Desktop Wireframes](/documentation/wireframes/PP4-Wireframes.pdf)
+- [Desktop Wireframes](documentation/wireframes/PP4-Wireframes.pdf)
 
 --- 
 
