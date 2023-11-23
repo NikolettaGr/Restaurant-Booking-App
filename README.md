@@ -8,7 +8,7 @@ Repository: [GitHub Repo](https://github.com/NikolettaGr/Restaurant-Booking-App)
 The app is developed by [Nikoletta Grishaber](https://github.com/NikolettaGr).
 
 
-![Restaurant Booking App](/documentation/screenshot_images/screenshot-restaurant.png)
+![Restaurant Booking App](/documentation/screenshot_images/ciaorestaurant.png)
 
 ## About
 
