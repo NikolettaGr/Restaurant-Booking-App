@@ -19,27 +19,27 @@ The app is developed by [Nikoletta Grishaber](https://github.com/NikolettaGr).
 ### First Time Visitor Goals:
 
 
-* As a First Time Visitor, I want to quickly understand the program's primary purpose so that I can learn more about this program.
-* As a First Time Visitor, I want to navigate through the program easily so that I can find the content.
-* As a First Time Visitor, I want to find the program useful for myself so that I can fulfill my expectations.
-* [#1](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/1) As a First Time Visitor, I want to be able to sign up for an account, so that I can start to book a table.
-* [#2](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/2) As a First Time Visitor, I want to be able to easily book a table,  so that I can secure a spot at the restaurant, enjoy a seamless dining experience, and have confidence in the availability of accommodations upon my arrival.
-* [#3](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/6) As a First Time Visitor, I want to be able to choose a date and time, so that I can schedule and plan my visit according to my availability and preferences.
-* [#4](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/8) As a First Time Visitor,I want to be able to choose a specific table from the available options, so that I can personalize my dining experience, select a preferred seating arrangement, and ensure my comfort during my visit.
-* [#5](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/3) As a First Time Visitor, I want to be able to see my booking details, so that I am informed about the specifics of my reservation and have a clear overview of the scheduled services or accommodations.
-* [#6](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/7]) As a First Time Visitor, I want to be able easily edit my bookings, so that I can make adjustments to my schedule, accommodate changes in my plans, and ensure that my reservations align with my evolving needs.
-* [#7](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/4) As a First Time Visitor, I want to be able easily cancel/delete my bookings, so that I can make adjustments to my plans, respond to unforeseen circumstances, and manage my reservations with convenience and efficiency.
-* [#8](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/11)As a First Time Visitor, I would like to log out of my user account, so that I can secure my personal information, maintain privacy, and ensure the security of my account when not in use.
+* [#1](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/12) As a First Time Visitor, I want to quickly understand the program's primary purpose so that I can learn more about this program.
+* [#2](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/13) As a First Time Visitor, I want to navigate through the program easily so that I can find the content.
+* [#3](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/14) As a First Time Visitor, I want to find the program useful for myself so that I can fulfill my expectations.
+* [#4](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/1) As a First Time Visitor, I want to be able to sign up for an account, so that I can start to book a table.
+* [#5](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/2) As a First Time Visitor, I want to be able to easily book a table,  so that I can secure a spot at the restaurant, enjoy a seamless dining experience, and have confidence in the availability of accommodations upon my arrival.
+* [#6](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/6) As a First Time Visitor, I want to be able to choose a date and time, so that I can schedule and plan my visit according to my availability and preferences.
+* [#7](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/8) As a First Time Visitor,I want to be able to choose a specific table from the available options, so that I can personalize my dining experience, select a preferred seating arrangement, and ensure my comfort during my visit.
+* [#8](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/3) As a First Time Visitor, I want to be able to see my booking details, so that I am informed about the specifics of my reservation and have a clear overview of the scheduled services or accommodations.
+* [#9](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/7]) As a First Time Visitor, I want to be able easily edit my bookings, so that I can make adjustments to my schedule, accommodate changes in my plans, and ensure that my reservations align with my evolving needs.
+* [#10](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/4) As a First Time Visitor, I want to be able easily cancel/delete my bookings, so that I can make adjustments to my plans, respond to unforeseen circumstances, and manage my reservations with convenience and efficiency.
+* [#11](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/11) As a First Time Visitor, I would like to log out of my user account, so that I can secure my personal information, maintain privacy, and ensure the security of my account when not in use.
 
 
 
 ### Returning and Frequent Visitor Goals:
 
-* As a Returning and Frequent Visitor, I want to be able to easily log in and log out, so that I can access my bookings.
-* As a Returning and Frequent Visitor, I want to be able easily edit my bookings.
-* As a Returning and Frequent Visitor, I want to be able easily delete my bookings.
-* As a Returning and Frequent Visitor, I want to be able to make bookings, view my current and previous booking details, and alternatively edit them or delete them.
-* As a Returning and Frequent Visitor, I want to sign out of my account at the end of the session to keep my account safe.
+* [#1](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/15) As a Returning and Frequent Visitor, I want to be able to easily log in and log out, so that I can access my bookings.
+* [#2](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/16) As a Returning and Frequent Visitor, I want to be able easily edit my bookings.
+* [#3](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/17) As a Returning and Frequent Visitor, I want to be able easily delete my bookings.
+* [#4](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/20) As a Returning and Frequent Visitor, I want to be able to make bookings and view my current and previous booking details.
+* [#5](https://github.com/NikolettaGr/Restaurant-Booking-App/issues/19) As a Returning and Frequent Visitor, I want to sign out of my account at the end of the session to keep my account safe.
 
 
 
